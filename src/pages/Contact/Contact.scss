@@ -1,0 +1,56 @@
+@import "../../App.scss";
+
+.main {
+  justify-content: center;
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #e1e3eb;
+}
+.sub-main {
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  width: 35%;
+  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+  padding-top: 30px;
+  border-radius: 60px;
+  background-color: white;
+}
+.c-input1 {
+  padding-left: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  margin-left: 43px;
+  margin-top: 30px;
+}
+
+.c-input2 {
+  padding-left: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  margin-left: 48px;
+}
+.c-input3 {
+  padding-left: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  margin-left: 15px;
+}
+.second-input {
+  padding-top: 20px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.send-btn {
+  width: 380px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: $clr-purple;
+  color: white;
+  font-size: 25px;
+  border: none;
+  margin-top: 40px;
+}
+.message-label {
+}
